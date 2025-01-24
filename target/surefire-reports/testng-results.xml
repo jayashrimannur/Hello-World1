@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="6" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-24T00:48:00 IST" name="Suite" finished-at="2025-01-24T00:48:21 IST" duration-ms="20827">
+    <groups>
+      <group name="Hashmap purchase order">
+        <method signature="LoginTest.submitOrderTest_updated(java.util.HashMap)[pri:0, instance:shoppingcart.test.LoginTest@433defed]" name="submitOrderTest_updated" class="shoppingcart.test.LoginTest"/>
+      </group> <!-- Hashmap purchase order -->
+    </groups>
+    <test started-at="2025-01-24T00:48:00 IST" name="Login test" finished-at="2025-01-24T00:48:20 IST" duration-ms="20259">
+      <class name="shoppingcart.test.LoginTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:shoppingcart.test.LoginTest@433defed]" started-at="2025-01-24T00:48:00 IST" name="launchApplication" finished-at="2025-01-24T00:48:05 IST" duration-ms="4699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrderTest_updated(java.util.HashMap)[pri:0, instance:shoppingcart.test.LoginTest@433defed]" started-at="2025-01-24T00:48:05 IST" name="submitOrderTest_updated" data-provider="getJSONHashMap" finished-at="2025-01-24T00:48:10 IST" duration-ms="5600" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{pass=Test@1405, product=BANARSI SAREE, email=testselenium@gmailtest.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrderTest_updated -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:shoppingcart.test.LoginTest@433defed]" started-at="2025-01-24T00:48:10 IST" name="closeBrowser" finished-at="2025-01-24T00:48:11 IST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:shoppingcart.test.LoginTest@433defed]" started-at="2025-01-24T00:48:11 IST" name="launchApplication" finished-at="2025-01-24T00:48:15 IST" duration-ms="4261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrderTest_updated(java.util.HashMap)[pri:0, instance:shoppingcart.test.LoginTest@433defed]" started-at="2025-01-24T00:48:15 IST" name="submitOrderTest_updated" data-provider="getJSONHashMap" finished-at="2025-01-24T00:48:20 IST" duration-ms="5225" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{pass=Sample@1405, product=IPHONE 13 PRO, email=samplet@test.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrderTest_updated -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:shoppingcart.test.LoginTest@433defed]" started-at="2025-01-24T00:48:20 IST" name="closeBrowser" finished-at="2025-01-24T00:48:20 IST" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- shoppingcart.test.LoginTest -->
+    </test> <!-- Login test -->
+    <test started-at="2025-01-24T00:48:21 IST" name="ErrorValidations Test" finished-at="2025-01-24T00:48:21 IST" duration-ms="0">
+    </test> <!-- ErrorValidations Test -->
+  </suite> <!-- Suite -->
+</testng-results>
