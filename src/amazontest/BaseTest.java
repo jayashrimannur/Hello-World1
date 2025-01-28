@@ -36,6 +36,11 @@ public class BaseTest {
 	   System.out.println("postJira1");
    	   System.out.println("postJira2");
 	   System.out.println("postJira3");
+           //New Update
+	  //From User2
+		
+	   System.out.println("postJira4");
+  	   System.out.println("postJira5");
 	}
 	public void initializeDriver() throws IOException
 	{

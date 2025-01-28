@@ -11,6 +11,12 @@ import org.testng.asserts.SoftAssert;
 
 
 public class LoginTest extends BaseTest {
+
+@Test
+public void helloworld()
+{
+	System.out.println("This is hello world program");
+}
 	
 	
 @Test
