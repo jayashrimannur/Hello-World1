@@ -29,6 +29,14 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 public class BaseTest {
 	WebDriver driver;
 	LandingPage home;
+
+	@Test
+	public void postJira()
+	{
+	   System.out.println("postJira1");
+   	   System.out.println("postJira2");
+	   System.out.println("postJira3");
+	}
 	public void initializeDriver() throws IOException
 	{
 	
