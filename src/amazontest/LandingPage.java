@@ -18,6 +18,15 @@ WebDriver driver;
 		PageFactory.initElements(driver, this);
 		
 	}
+
+public LandingPagebyteam2(WebDriver driver)
+	{
+		//super(driver);
+		System.out.println("new branch update");
+		this.driver=driver;
+		PageFactory.initElements(driver, this);
+		
+	}
 	
 	@FindBy(id="ap_email_login")
 	WebElement userEmail;
